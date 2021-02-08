@@ -21,7 +21,7 @@ Edit vhost `config/nginx/proxy.conf` and register it to nginx
 
 Edit vhost `config/crontab/crontab` and register it to crontab
 
-    ln -s "${PWD}/config/crontab/crontab" "/etc/cron.d/myapp"
+    ln -s "${PWD}/config/crontab/crontab" "/etc/cron.d/bookstack"
 
 ## Usage
 
